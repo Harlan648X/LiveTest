@@ -12,19 +12,18 @@
 </head>
 <body>
     <div> 
+<h1>Push this button to see the coolest thing ever!!!</h1>
+        <p>---Tiny demo of C# MVC project with two views---</p>
         <br />
         <br />
-        <br />
-<p>Push this button to see the coolest thing ever!!!</p>
-
+        <p>Form Button</p>
         <form action="/Home/Result">
-            <input type="submit" value="Submit Me">
+            <input type="submit" value="Press Me">
         </form>
-
+        <p>Url.Action() Button</p>
         <a href='@Url.Action("Result", "Home")'>
             <input type='button' value='Press Me' />
         </a>
-
     </div>
 </body>
 </html>
