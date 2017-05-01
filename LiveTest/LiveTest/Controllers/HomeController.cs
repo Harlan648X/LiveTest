@@ -17,7 +17,7 @@ namespace LiveTest.Controllers
         // GET: Home
         public ActionResult Result()
         {
-            return View();
+            return View("Result");
         }
 
     }
