@@ -17,9 +17,14 @@
         <br />
 <p>Push this button to see the coolest thing ever!!!</p>
 
-        <form action="Result">
+        @*<form action="Result">
             <input type="submit" value="Submit">
-        </form>
+        </form>*@
+
+        <a href='@Url.Action("Result", "Home")'>
+            <input type='button' value='Press Me' />
+        </a>
+
     </div>
 </body>
 </html>
